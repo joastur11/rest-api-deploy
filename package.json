@@ -1,0 +1,29 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "description": "Estoy aprendiendo che",
+  "main": "1.inicio-modulos.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "curso",
+    "node",
+    "nodejs"
+  ],
+  "author": "Joaquin Stur",
+  "license": "ISC",
+
+  "dependencies": {
+    "express": "5.1.0",
+    "picocolors": "^1.1.1",
+    "zod": "4.0.5"
+  },
+  "devDependencies": {
+    "standard": "^17.1.2"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  }
+}
